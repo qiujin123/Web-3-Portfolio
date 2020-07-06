@@ -1,3 +1,35 @@
 /* =============
     Header
 ============= */
+header{
+
+    background-color: #00060B;
+
+    div{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+
+
+
+        #logo-container{
+            padding: 10px 0;
+            img{
+                width: 30px;
+            }
+
+            @include md{
+                width: initial;
+            }
+        }
+
+        #burger-container{
+            font-size: rem-cacl(20);
+            color: white;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    }
+}
