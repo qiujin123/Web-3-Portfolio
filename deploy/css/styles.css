@@ -365,6 +365,11 @@ ul li {
   list-style: none;
 }
 
+a:link, a:visited {
+  text-decoration: none;
+  transition: 0.25s;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 15px auto 15px;
@@ -456,6 +461,52 @@ header div #burger-container {
 /* =============
     Footer
 ============= */
-/* =============
-    Section 1
-============= */
+footer {
+  background-image: url("../img/footer/footer.png");
+  background-size: cover;
+  background-position: center;
+}
+footer > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: ". q ." "logo . copyright";
+}
+footer > div h1 {
+  text-align: center;
+  color: #fff;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  grid-area: q;
+  font-size: 1.875rem;
+  padding-top: 50px;
+  margin: 100px 0 100px;
+}
+@media (min-width: 768px) {
+  footer > div h1 {
+    margin: 150px 0 150px;
+  }
+}
+footer > div h6 {
+  color: #fff;
+  grid-area: copyright;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 0.625rem;
+  text-align: end;
+}
+footer > div ul {
+  grid-area: logo;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer > div ul li {
+  margin: 0 10px;
+}
+footer > div ul li a:link, footer > div ul li a:visited {
+  color: #fff;
+  font-size: 1.25rem;
+}
+footer > div ul li a:link:hover, footer > div ul li a:link:active, footer > div ul li a:visited:hover, footer > div ul li a:visited:active {
+  color: #EE1C4E;
+}
