@@ -2,9 +2,12 @@
     Header
 ============= */
 header{
-
+    position: relative;
+    z-index: 1;
     background-color: #00060B;
-    opacity: .5;
+    opacity: .7;
+    
+    
     
 
     div{
@@ -19,6 +22,7 @@ header{
             padding: 10px 0;
             img{
                 width: 30px;
+            
             }
 
             @include md{
