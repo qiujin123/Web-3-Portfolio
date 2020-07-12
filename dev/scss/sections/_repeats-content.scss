@@ -1,0 +1,137 @@
+/* =============
+    Repeats Content
+============= */
+
+#repeats-hero {
+    background-color: $black;
+    margin-top: -100px;
+
+    >div {
+        img {
+            width: 100%;
+        }
+
+        h1 {
+            color: $white;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            font-family: 'Kanit', sans-serif;
+            font-weight: 700;
+            font-size: rem-calc(40);
+        }
+    }
+}
+
+
+#repeats-gallery {
+    >div {
+
+        ul {
+            display: grid;
+            gap: 15px;
+
+            @include md{
+                gap: 20px;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-areas:
+                "g1 g2"
+                "g3 g4"
+                "g5 g5"
+                "g6 g7"
+                "g8 g9"
+            }
+
+            @include lg {
+                gap: 20px;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas:
+                    "g1 g2 g3"
+                    "g4 g5 g6"
+                    "g7 g8 g9";
+            }
+
+            li {
+                img {
+                    width: 100%;
+                }
+            }
+
+            li:nth-child(1) {
+                @include md {
+                    grid-area: g1;
+                }
+            }
+
+            li:nth-child(2) {
+                @include md {
+                    grid-area: g2;
+                }
+            }
+
+            li:nth-child(3) {
+                @include md {
+                    grid-area: g3;
+                }
+            }
+
+            li:nth-child(4) {
+                @include md {
+                    grid-area: g4;
+                }
+            }
+
+            li:nth-child(5) {
+                @include md {
+                    grid-area: g5;
+                }
+            }
+
+            li:nth-child(6) {
+                @include md {
+                    grid-area: g6;
+                }
+            }
+
+            li:nth-child(7) {
+                @include md {
+                    grid-area: g7;
+                }
+            }
+
+            li:nth-child(8) {
+                @include md {
+                    grid-area: g8;
+                }
+            }
+
+            li:nth-child(9) {
+                @include md {
+                    grid-area: g9;
+                }
+            }
+        }
+    }
+}
+
+
+#repeats-texts {
+    >div {
+        h2 {
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+            font-weight: 700;
+            font-size: rem-calc(30);
+            padding: 20px;
+        }
+
+        p {
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: rem-calc(16);
+            text-align: justify;
+            padding-bottom: 20px;
+
+        }
+    }
+}

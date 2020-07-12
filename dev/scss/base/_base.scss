@@ -21,7 +21,7 @@ a:link, a:visited{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 15px auto 15px;
+    grid-template-columns: 20px auto 20px;
     grid-template-areas: ". container .";
 
     @include xl{
@@ -32,6 +32,7 @@ a:link, a:visited{
         grid-area: container;
     }
 }
+
 
 .index-info{
     h3{

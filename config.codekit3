@@ -30,6 +30,105 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/gallery/g1.jpg": {
+		"ft": 16384,
+		"iS": 2163014,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g2.jpg": {
+		"ft": 16384,
+		"iS": 1461862,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g3.jpg": {
+		"ft": 16384,
+		"iS": 1201681,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g4.jpg": {
+		"ft": 16384,
+		"iS": 1307505,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g5.jpg": {
+		"ft": 16384,
+		"iS": 1201092,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g6.jpg": {
+		"ft": 16384,
+		"iS": 1132344,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g7.jpg": {
+		"ft": 16384,
+		"iS": 1749266,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g8.jpg": {
+		"ft": 16384,
+		"iS": 1461586,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g9.jpg": {
+		"ft": 16384,
+		"iS": 1815103,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/header/logo.png": {
 		"ft": 32768,
 		"iS": 1952,
@@ -115,12 +214,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/repeats.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/repeats.html",
+		"oF": 0
+		},
 	"/dev/content/index-content.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/index-content.html",
+		"oF": 0
+		},
+	"/dev/content/repeats-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/repeats-content.html",
 		"oF": 0
 		},
 	"/dev/global/footer.kit": {
@@ -195,6 +310,14 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/repeats.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/repeats.html",
+		"oF": 2
 		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
@@ -365,6 +488,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/_repeats-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_repeats-content.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -377,14 +513,6 @@
 		"oF": 2,
 		"oS": 0,
 		"sct": 0
-		},
-	"/dev/template.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/template.html",
-		"oF": 0
 		},
 	"/node_modules": {
 		"ft": 65536,
