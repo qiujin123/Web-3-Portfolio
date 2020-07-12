@@ -33,3 +33,26 @@ a:link, a:visited{
     }
 }
 
+.index-info{
+    h3{
+        color: $white;
+        font-family: 'Kanit', sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: rem-calc(16);
+        text-align: center;
+        background-color: $black;
+        padding: 10px 0 0;
+    }
+    h4{
+        color: $white;
+        font-family: 'Kanit', sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: rem-calc(16);
+        text-align: center;
+        background-color: $black;
+        padding: 0 0 10px;
+    }
+}
+

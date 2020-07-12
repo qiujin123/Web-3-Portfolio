@@ -41,6 +41,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/Home/bembo.png": {
+		"ft": 32768,
+		"iS": 95507,
+		"oA": 0,
+		"oAP": "/deploy/img/Home/bembo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Home/h1.png": {
+		"ft": 32768,
+		"iS": 1126533,
+		"oA": 0,
+		"oAP": "/deploy/img/Home/h1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Home/h2.png": {
+		"ft": 32768,
+		"iS": 1764396,
+		"oA": 0,
+		"oAP": "/deploy/img/Home/h2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Home/h3.png": {
+		"ft": 32768,
+		"iS": 1508964,
+		"oA": 0,
+		"oAP": "/deploy/img/Home/h3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Home/life.png": {
+		"ft": 32768,
+		"iS": 223309,
+		"oA": 0,
+		"oAP": "/deploy/img/Home/life.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -64,7 +119,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/content/index-content.html",
 		"oF": 0
 		},
@@ -108,6 +163,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/fancyBox.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/fancyBox-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
@@ -116,6 +182,17 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/tinySlider.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/tinySlider-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -171,6 +248,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/components/_fancy-box.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_fancy-box.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/components/_forms.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -193,6 +283,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/components/_tiny-slider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_tiny-slider.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -249,6 +352,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/_index-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_index-content.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -269,6 +385,28 @@
 		"oA": 0,
 		"oAP": "/dev/template.html",
 		"oF": 0
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		}
 	},
 "hooks": [
@@ -718,7 +856,7 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -1049,7 +1187,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -1797,7 +1935,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "tns",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

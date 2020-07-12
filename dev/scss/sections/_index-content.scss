@@ -1,0 +1,55 @@
+/* =============
+    Index Content
+============= */
+
+#index-hero{
+    background-color: $black;
+    
+    >div{
+        .my-slider{
+            div{
+                
+
+                img{
+                    object-fit: cover;
+                    width: 100vw;
+                    bottom: -150px;
+                }
+            }
+        }
+    
+        h1{
+            text-align: center;
+            padding: 20px 0 20px;
+            color: $white;
+            font-family: 'Kanit', sans-serif;
+            font-weight: 700;
+            font-size: rem-calc(40);
+            
+
+        }
+    }
+}
+
+#index-subjects{
+    background-color: $grey;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @include xl{
+        
+    }
+    #p1{
+        margin: 30px;
+        img{
+            width: 100%;
+        }
+    }
+
+    #p2{
+        margin: 30px;
+        img{
+            width: 100%;
+        }
+    }
+}

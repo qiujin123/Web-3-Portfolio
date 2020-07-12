@@ -1,0 +1,1 @@
+console.log("Hello world"),tns({container:".my-slider",items:1,slideBy:"page",autoplay:!0,controls:!1,navPosition:"bottom"}),$(document).ready((function(){console.log("ready!")}));
