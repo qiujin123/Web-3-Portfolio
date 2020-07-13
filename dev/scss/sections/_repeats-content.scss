@@ -8,6 +8,9 @@
 
     >div {
         img {
+            object-fit: cover;
+            object-position: center;
+            height: 100%;
             width: 100%;
         }
 
@@ -25,14 +28,12 @@
 
 
 #repeats-gallery {
-    >div {
 
         ul {
             display: grid;
-            gap: 15px;
+            gap: 20px;
 
             @include md{
-                gap: 20px;
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-areas:
                 "g1 g2"
@@ -43,7 +44,6 @@
             }
 
             @include lg {
-                gap: 20px;
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-areas:
                     "g1 g2 g3"
@@ -53,6 +53,9 @@
 
             li {
                 img {
+                    object-fit: cover;
+                    object-position: center;
+                    height: 100%;
                     width: 100%;
                 }
             }
@@ -111,7 +114,6 @@
                 }
             }
         }
-    }
 }
 
 
