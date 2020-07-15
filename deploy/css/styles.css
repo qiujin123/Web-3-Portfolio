@@ -1012,3 +1012,49 @@ footer > div ul li a:link:hover, footer > div ul li a:link:active, footer > div 
   text-align: justify;
   padding-bottom: 20px;
 }
+
+#following-hero {
+  background-color: #00060B;
+  margin-top: -100px;
+}
+#following-hero > div img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+#following-hero > div h1 {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+#contact-hero {
+  background-color: #00060B;
+  margin-top: -100px;
+}
+#contact-hero > div img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+#contact-hero > div h1 {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+#contact-map #map {
+  width: 100%;
+  height: 400px;
+  background-color: #F2F2F2;
+}

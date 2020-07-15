@@ -1,0 +1,23 @@
+#following-hero {
+    background-color: $black;
+    margin-top: -100px;
+
+    >div {
+        img {
+            object-fit: cover;
+            object-position: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        h1 {
+            color: $white;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            font-family: 'Kanit', sans-serif;
+            font-weight: 700;
+            font-size: rem-calc(40);
+        }
+    }
+}
