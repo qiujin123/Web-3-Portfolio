@@ -892,7 +892,6 @@ header {
   position: relative;
   z-index: 100;
   background-color: #00060B;
-  opacity: 0.7;
 }
 header div {
   display: grid;
@@ -910,11 +909,20 @@ header div #logo-container img {
   }
 }
 header div #burger-container {
-  font-size: rem-cacl(20);
-  color: white;
+  align-items: center;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+}
+header div #burger-container #burger {
+  cursor: pointer;
+  transition: 0.25s;
+}
+header div #burger-container #burger #lines {
+  transition: 0.25s;
+  stroke: #EE1C4E !important;
+}
+header div #burger-container #burger:hover #lines {
+  stroke: #fff !important;
 }
 
 /* =============
