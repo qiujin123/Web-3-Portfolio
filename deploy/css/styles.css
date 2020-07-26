@@ -433,6 +433,31 @@ button {
   transition: 0.25s;
 }
 
+.black-button {
+  background-color: #00060B;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  padding: 13px 20px;
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  .black-button {
+    font-size: 1.25rem;
+    padding: 14px 35px;
+  }
+}
+@media (min-width: 768px) {
+  .black-button {
+    font-size: 1.5rem;
+    padding: 16px 40px;
+  }
+}
+.black-button:hover {
+  background-color: #EE1C4E;
+}
+
 /* =============
     Forms
 ============= */
@@ -458,29 +483,79 @@ textarea {
 /* =============
     Navigation
 ============= */
-.black-button {
+#main-nav {
   background-color: #00060B;
-  color: #fff;
-  border-radius: 8px;
-  font-weight: 700;
-  font-size: 1.125rem;
-  padding: 13px 20px;
+  display: none;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 90;
+}
+#main-nav ul li a:link,
+#main-nav ul li a:visited {
+  border-bottom: 1px solid #fff;
+  color: #EE1C4E;
   display: inline-block;
+  font-size: 1.5625rem;
+  padding: 20px 0 20px 10px;
+  width: 100%;
 }
 @media (min-width: 768px) {
-  .black-button {
+  #main-nav ul li a:link,
+#main-nav ul li a:visited {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1025px) {
+  #main-nav ul li a:link,
+#main-nav ul li a:visited {
+    font-size: 3.125rem;
+  }
+}
+@media (min-width: 1440px) {
+  #main-nav ul li a:link,
+#main-nav ul li a:visited {
+    font-size: 3.75rem;
+  }
+}
+#main-nav ul li a:link i,
+#main-nav ul li a:visited i {
+  color: #fff;
+  font-size: 0.9375rem;
+  margin-right: 10px;
+}
+@media (min-width: 768px) {
+  #main-nav ul li a:link i,
+#main-nav ul li a:visited i {
     font-size: 1.25rem;
-    padding: 14px 35px;
   }
 }
-@media (min-width: 768px) {
-  .black-button {
-    font-size: 1.5rem;
-    padding: 16px 40px;
+@media (min-width: 1025px) {
+  #main-nav ul li a:link i,
+#main-nav ul li a:visited i {
+    font-size: 1.875rem;
   }
 }
-.black-button:hover {
-  background-color: #EE1C4E;
+@media (min-width: 1440px) {
+  #main-nav ul li a:link i,
+#main-nav ul li a:visited i {
+    font-size: 2.5rem;
+  }
+}
+#main-nav ul li a:link:hover, #main-nav ul li a:link:active,
+#main-nav ul li a:visited:hover,
+#main-nav ul li a:visited:active {
+  background-color: #fff;
+}
+#main-nav ul li a:link:hover i, #main-nav ul li a:link:active i,
+#main-nav ul li a:visited:hover i,
+#main-nav ul li a:visited:active i {
+  color: #EE1C4E;
 }
 
 .fancybox-button, .fancybox-button:link, .fancybox-button:visited {
@@ -815,7 +890,7 @@ pre[class*=language-] {
 ============= */
 header {
   position: relative;
-  z-index: 1;
+  z-index: 100;
   background-color: #00060B;
   opacity: 0.7;
 }

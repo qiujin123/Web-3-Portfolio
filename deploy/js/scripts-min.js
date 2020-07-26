@@ -1,1 +1,1 @@
-$('[data-fancybox="gallery"]').fancybox({}),tns({container:".my-slider",items:1,slideBy:"page",autoplay:!0,controls:!1,navPosition:"bottom"}),$(document).ready((function(){console.log("ready!")}));
+$('[data-fancybox="gallery"]').fancybox({}),$(document).ready((function(){tns({container:".my-slider",items:1,slideBy:"page",autoplay:!0,controls:!1,navPosition:"bottom"}),console.log("No TinySlider found!")})),$("#burger").on("click",(function(){console.log("clicked on burger"),$("#main-nav").toggle()})),$(document).ready((function(){console.log("ready!")}));
