@@ -483,9 +483,17 @@ textarea {
 /* =============
     Navigation
 ============= */
+.hide-nav-buttons {
+  display: none;
+}
+
+.show-nav-buttons {
+  display: block !important;
+}
+
 #main-nav {
   background-color: #00060B;
-  display: none;
+  display: grid;
   place-items: center;
   position: fixed;
   top: 0;

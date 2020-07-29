@@ -2,9 +2,18 @@
     Navigation
 ============= */
 
-#main-nav{
-    background-color: $black;
+.hide-nav-buttons {
     display: none;
+}
+
+.show-nav-buttons {
+    display: block !important;
+}
+
+
+#main-nav{ 
+    background-color: $black;
+    display: grid;
     place-items: center;
     position: fixed;
     top: 0;

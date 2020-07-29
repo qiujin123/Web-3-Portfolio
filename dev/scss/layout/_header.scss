@@ -1,31 +1,30 @@
 /* =============
     Header
 ============= */
-header{
+header {
     position: relative;
     z-index: 100;
     background-color: #00060B;
     // opacity: .7;
-    
-    
-    
 
-    div{
+
+
+
+    div {
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        
 
-
-
-        #logo-container{
+        #logo-container {
             padding: 10px 0;
-            img{
+
+            img {
                 width: 30px;
-            
+                
+
             }
 
-            @include md{
+            @include md {
                 width: initial;
             }
         }
@@ -34,19 +33,19 @@ header{
             align-items: center;
             display: flex;
             justify-content: flex-end;
-            
 
-            #burger{
+
+            #burger {
                 cursor: pointer;
                 transition: 0.25s;
 
-                #lines{
+                #lines {
                     transition: 0.25s;
                     stroke: $red !important;
                 }
 
-                &:hover{
-                    #lines{
+                &:hover {
+                    #lines {
                         stroke: $white !important;
                     }
                 }
