@@ -6,6 +6,8 @@
 // @codekit-prepend "main-nav/nav-global.js";
 // @codekit-prepend "main-nav/burger-click.js";
 
+// @codekit-prepend "scrollTrigger.js";
+
 
 
 // A $( document ).ready() block.
