@@ -26,4 +26,9 @@ burgerAnimationTimeLine.addLabel("burgerToDownArrow")
                         .to("#bot",{duration:burgerAnimateSpeed,rotation: 0, alpha:1, fill:"#fff"}, "upArrow")
                         .addLabel("xToUpArrowReverse")
                         .addPause()
+                        .addLabel("upArrowToBurger")
+                        .to("#burger",{duration:burgerAnimateSpeed,rotation:0}, 'backToBurger')
+                        .to("#top",{duration:burgerAnimateSpeed, fill:"#fff"}, "backToBurger")
+                        
+                        
                         

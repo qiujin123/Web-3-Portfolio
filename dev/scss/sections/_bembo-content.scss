@@ -1,0 +1,94 @@
+/* =============
+    Bembo Hero
+============= */
+
+#bembo-hero {
+    background-color: $black;
+    margin-top: -100px;
+
+    >div {
+        img {
+            object-fit: cover;
+            object-position: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        h1 {
+            color: $white;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            font-family: 'Kanit', sans-serif;
+            font-weight: 700;
+            font-size: rem-calc(40);
+        }
+    }
+}
+
+
+#bembo-gallery {
+
+    ul {
+        display: grid;
+        gap: 20px;
+
+        @include md{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas:
+            "f1 f1"
+            "p1 p2"
+            
+        }
+
+        li {
+        
+            img {
+                object-fit: cover;
+                object-position: center;
+                height: 100%;
+                width: 100%;
+                
+            }
+        }
+
+        li:nth-child(1) {
+            @include md {
+                grid-area: f1;
+            }
+        }
+
+        li:nth-child(2) {
+            @include md {
+                grid-area: p1;
+            }
+        }
+
+        li:nth-child(3) {
+            @include md {
+                grid-area: p2;
+            }
+        }
+    }
+}
+
+#bembo-texts {
+    >div {
+        h2 {
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+            font-weight: 700;
+            font-size: rem-calc(30);
+            padding: 20px;
+        }
+
+        p {
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: rem-calc(16);
+            text-align: justify;
+            padding-bottom: 20px;
+
+        }
+    }
+}

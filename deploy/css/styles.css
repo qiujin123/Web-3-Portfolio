@@ -987,9 +987,6 @@ footer > div ul li a:link:hover, footer > div ul li a:link:active, footer > div 
 }
 
 /* =============
-    Index Content
-============= */
-/* =============
     Index Hero
 ============= */
 #index-hero {
@@ -1137,6 +1134,9 @@ footer > div ul li a:link:hover, footer > div ul li a:link:active, footer > div 
   padding-bottom: 20px;
 }
 
+/* =============
+    Following Hero
+============= */
 #following-hero {
   background-color: #00060B;
   margin-top: -100px;
@@ -1157,6 +1157,9 @@ footer > div ul li a:link:hover, footer > div ul li a:link:active, footer > div 
   font-size: 2.5rem;
 }
 
+/* =============
+    Contact Hero
+============= */
 #contact-hero {
   background-color: #00060B;
   margin-top: -100px;
@@ -1242,4 +1245,74 @@ footer > div ul li a:link:hover, footer > div ul li a:link:active, footer > div 
 }
 #contact-form #form-container form section:nth-child(4) button {
   border: none;
+}
+
+/* =============
+    Bembo Hero
+============= */
+#bembo-hero {
+  background-color: #00060B;
+  margin-top: -100px;
+}
+#bembo-hero > div img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+#bembo-hero > div h1 {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+#bembo-gallery ul {
+  display: grid;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  #bembo-gallery ul {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "f1 f1" "p1 p2";
+  }
+}
+#bembo-gallery ul li img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #bembo-gallery ul li:nth-child(1) {
+    grid-area: f1;
+  }
+}
+@media (min-width: 768px) {
+  #bembo-gallery ul li:nth-child(2) {
+    grid-area: p1;
+  }
+}
+@media (min-width: 768px) {
+  #bembo-gallery ul li:nth-child(3) {
+    grid-area: p2;
+  }
+}
+
+#bembo-texts > div h2 {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+  padding: 20px;
+}
+#bembo-texts > div p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: justify;
+  padding-bottom: 20px;
 }

@@ -1,7 +1,5 @@
 var canYouSeeTheMenu = false;
-
 var navHeight = $("#main-nav").outerHeight();
-//move the main nav off screen ( this is moving the main-nav on the Y axis )
 gsap.set("#main-nav", {
     y: -navHeight
 })
@@ -14,14 +12,10 @@ mainNavTimeline.to("#main-nav", {
     y: 0
 });
 
-//reset the transformOrigin point for each line
 gsap.set(".lines", {
     transformOrigin: "center"
 });
 
-
-
-// function to handle the showing and hiding of the main-nav
 function hideShowMainNav() {
 
     console.log("show me the menu!");
@@ -31,7 +25,6 @@ function hideShowMainNav() {
 
         burgerAnimationTimeLine.play("downArrowToX");
 
-        //play the main nav animation into view ( pull it down )
         mainNavTimeline.play();
 
         canYouSeeTheMenu = true;
@@ -39,7 +32,6 @@ function hideShowMainNav() {
         console.log("burger click up");
         burgerAnimationTimeLine.play("upArrowToBurger");
 
-        // play the main nav animation out of view ( push it up )
         mainNavTimeline.reverse();
 
         canYouSeeTheMenu = false;
@@ -67,6 +59,4 @@ function reportWindowSize() {
     }
 }
 
-
-// add a listener to the window for everytime it's resized
 window.addEventListener('resize', reportWindowSize);

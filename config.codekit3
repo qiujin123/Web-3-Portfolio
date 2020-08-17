@@ -43,6 +43,17 @@
 		"oAP": "/deploy/following.html",
 		"oF": 0
 		},
+	"/deploy/img/bembo/bembo.jpg": {
+		"ft": 16384,
+		"iS": 121295,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/bembo/bembo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/bembo/f1.jpg": {
 		"ft": 16384,
 		"iS": 429374,
@@ -424,6 +435,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/gsap-register.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gsap-register-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/main-nav/burger-animation.js": {
 		"bF": 0,
 		"ft": 64,
@@ -661,6 +683,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_bembo-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_bembo-content.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
