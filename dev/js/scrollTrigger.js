@@ -15,5 +15,5 @@ ScrollTrigger.create({
     start: "top 60%",
     end: "bottom 60%",
     // markers: true,
-    id: "photo",
+    id: "photo"
 });

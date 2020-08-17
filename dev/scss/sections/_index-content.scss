@@ -45,19 +45,16 @@
     background-color: $grey;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
-    @include xl{
-        
-    }
+    
     #p1{
-        margin: 30px;
+        margin: 20px;
         img{
             width: 100%;
         }
     }
 
     #p2{
-        margin: 30px;
+        margin: 20px;
         img{
             width: 100%;
         }
