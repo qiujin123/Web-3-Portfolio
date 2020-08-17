@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/deploy/bembo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/bembo.html",
+		"oF": 0
+		},
 	"/deploy/contact.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -34,6 +42,39 @@
 		"oA": 0,
 		"oAP": "/deploy/following.html",
 		"oF": 0
+		},
+	"/deploy/img/bembo/f1.jpg": {
+		"ft": 16384,
+		"iS": 429374,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/bembo/f1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/bembo/P1.png": {
+		"ft": 32768,
+		"iS": 19905,
+		"oA": 0,
+		"oAP": "/deploy/img/bembo/P1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/bembo/p2.png": {
+		"ft": 32768,
+		"iS": 17626,
+		"oA": 0,
+		"oAP": "/deploy/img/bembo/p2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/deploy/img/contact/contact.jpg": {
 		"ft": 16384,
@@ -260,6 +301,14 @@
 		"oAP": "/deploy/repeats.html",
 		"oF": 0
 		},
+	"/dev/bembo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/bembo.html",
+		"oF": 2
+		},
 	"/dev/contact.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -267,6 +316,14 @@
 		"oA": 0,
 		"oAP": "/deploy/contact.html",
 		"oF": 2
+		},
+	"/dev/content/bembo-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/bembo-content.html",
+		"oF": 0
 		},
 	"/dev/content/contact-content.kit": {
 		"cB": 0,
