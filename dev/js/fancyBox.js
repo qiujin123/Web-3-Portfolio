@@ -1,5 +1,3 @@
-//console.log("Hello from FancyBox file");
-
 $('[data-fancybox="gallery"]').fancybox({
 	// buttons : [
     //     "zoom",

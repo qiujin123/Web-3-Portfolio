@@ -1,11 +1,11 @@
 /* =============
     Buttons
 ============= */
-button{
+button {
     transition: 0.25s;
- }
+}
 
- .black-button{
+.black-button {
     background-color: $black;
     color: $white;
     border-radius: 8px;
@@ -14,17 +14,17 @@ button{
     padding: 13px 20px;
     display: inline-block;
 
-    @include md{
+    @include md {
         font-size: rem-calc(20);
         padding: 14px 35px;
     }
 
-    @include md{
+    @include md {
         font-size: rem-calc(24);
         padding: 16px 40px;
     }
 
-    &:hover{
+    &:hover {
         background-color: $red;
     }
 }

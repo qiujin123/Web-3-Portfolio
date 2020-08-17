@@ -29,91 +29,91 @@
 
 #repeats-gallery {
 
-        ul {
-            display: grid;
-            gap: 20px;
+    ul {
+        display: grid;
+        gap: 20px;
 
-            @include md{
-                grid-template-columns: repeat(2, 1fr);
-                grid-template-areas:
+        @include md {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas:
                 "g1 g2"
                 "g3 g4"
                 "g5 g5"
                 "g6 g7"
                 "g8 g9"
-            }
+        }
 
-            @include lg {
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-areas:
-                    "g1 g2 g3"
-                    "g4 g5 g6"
-                    "g7 g8 g9";
-            }
+        @include lg {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas:
+                "g1 g2 g3"
+                "g4 g5 g6"
+                "g7 g8 g9";
+        }
 
-            li {
-                img {
-                    object-fit: cover;
-                    object-position: center;
-                    height: 100%;
-                    width: 100%;
-                }
-            }
-
-            li:nth-child(1) {
-                @include md {
-                    grid-area: g1;
-                }
-            }
-
-            li:nth-child(2) {
-                @include md {
-                    grid-area: g2;
-                }
-            }
-
-            li:nth-child(3) {
-                @include md {
-                    grid-area: g3;
-                }
-            }
-
-            li:nth-child(4) {
-                @include md {
-                    grid-area: g4;
-                }
-            }
-
-            li:nth-child(5) {
-                @include md {
-                    grid-area: g5;
-                }
-            }
-
-            li:nth-child(6) {
-                @include md {
-                    grid-area: g6;
-                }
-            }
-
-            li:nth-child(7) {
-                @include md {
-                    grid-area: g7;
-                }
-            }
-
-            li:nth-child(8) {
-                @include md {
-                    grid-area: g8;
-                }
-            }
-
-            li:nth-child(9) {
-                @include md {
-                    grid-area: g9;
-                }
+        li {
+            img {
+                object-fit: cover;
+                object-position: center;
+                height: 100%;
+                width: 100%;
             }
         }
+
+        li:nth-child(1) {
+            @include md {
+                grid-area: g1;
+            }
+        }
+
+        li:nth-child(2) {
+            @include md {
+                grid-area: g2;
+            }
+        }
+
+        li:nth-child(3) {
+            @include md {
+                grid-area: g3;
+            }
+        }
+
+        li:nth-child(4) {
+            @include md {
+                grid-area: g4;
+            }
+        }
+
+        li:nth-child(5) {
+            @include md {
+                grid-area: g5;
+            }
+        }
+
+        li:nth-child(6) {
+            @include md {
+                grid-area: g6;
+            }
+        }
+
+        li:nth-child(7) {
+            @include md {
+                grid-area: g7;
+            }
+        }
+
+        li:nth-child(8) {
+            @include md {
+                grid-area: g8;
+            }
+        }
+
+        li:nth-child(9) {
+            @include md {
+                grid-area: g9;
+            }
+        }
+    }
 }
 
 

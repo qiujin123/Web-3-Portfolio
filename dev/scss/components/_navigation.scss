@@ -11,7 +11,7 @@
 }
 
 
-#main-nav{ 
+#main-nav {
     background-color: $black;
     display: grid;
     place-items: center;
@@ -24,54 +24,57 @@
     width: 100%;
     z-index: 90;
 
-    ul{
-        li{
-            a:link,
-                a:visited {
-                    border-bottom: 1px solid $white;
-                    color: $red;
-                    display: inline-block;
-                    font-size: rem-calc(25);
-                    padding: 20px 0 20px 10px;
-                    width: 100%;
+    ul {
+        li {
 
-                    @include md{
+            a:link,
+            a:visited {
+                border-bottom: 1px solid $white;
+                color: $red;
+                display: inline-block;
+                font-size: rem-calc(25);
+                padding: 20px 0 20px 10px;
+                width: 100%;
+
+                @include md {
+                    font-size: rem-calc(40);
+                }
+
+                @include lg {
+                    font-size: rem-calc(50);
+                }
+
+                @include xl {
+                    font-size: rem-calc(60);
+                }
+
+                i {
+                    color: $white;
+                    font-size: rem-calc(15);
+                    margin-right: 10px;
+
+                    @include md {
+                        font-size: rem-calc(20);
+                    }
+
+                    @include lg {
+                        font-size: rem-calc(30);
+                    }
+
+                    @include xl {
                         font-size: rem-calc(40);
                     }
+                }
 
-                    @include lg{
-                        font-size: rem-calc(50);
-                    }
-
-                    @include xl{
-                        font-size: rem-calc(60);
-                    }
+                &:hover,
+                &:active {
+                    background-color: $white;
 
                     i {
-                        color: $white;
-                        font-size: rem-calc(15);
-                        margin-right: 10px;
-                        @include md{
-                            font-size: rem-calc(20);
-                        }
-    
-                        @include lg{
-                            font-size: rem-calc(30);
-                        }
-    
-                        @include xl{
-                            font-size: rem-calc(40);
-                        }
-                    }
-
-                    &:hover, &:active {
-                        background-color: $white;
-
-                        i {
-                            color: $red;
-                        }
+                        color: $red;
                     }
                 }
+            }
         }
     }
 }

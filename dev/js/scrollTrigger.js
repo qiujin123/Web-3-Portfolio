@@ -4,9 +4,17 @@
 
 const logoTimeline = gsap.timeline();
 
-gsap.set(".photo",{alpha:0, yPercent: 100});
+gsap.set(".photo", {
+    alpha: 0,
+    yPercent: 100
+});
 
-logoTimeline.to(".photo",{duration:0.5, alpha:1, yPercent: 0, stagger:0.25});
+logoTimeline.to(".photo", {
+    duration: 0.5,
+    alpha: 1,
+    yPercent: 0,
+    stagger: 0.25
+});
 
 ScrollTrigger.create({
     animation: logoTimeline,

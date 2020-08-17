@@ -26,48 +26,49 @@
     }
 }
 
-#contact-map{
+#contact-map {
 
-    #map{
+    #map {
         width: 100%;
         height: 400px;
         background-color: $grey;
     }
 
 }
-#contact-form{
+
+#contact-form {
     background-color: $grey;
 
-    #form-container{
+    #form-container {
 
-        form{
+        form {
             display: grid;
             gap: 20px;
             margin: 20px;
             padding: 50px;
-    
-            @include md{
+
+            @include md {
                 grid-template-columns: repeat(2 1fr);
                 grid-template-areas:
-                "name email"
-                "message message"
-                ". send";
+                    "name email"
+                    "message message"
+                    ". send";
             }
 
-            section{
+            section {
 
                 background-color: $white;
                 width: 96%;
                 padding: 0 2%;
                 border: solid 1px $black;
 
-                input{
+                input {
                     border: none;
                     width: 100%;
                     padding: 4% 0;
                 }
 
-                textarea{
+                textarea {
                     border: none;
                     height: 300px;
                     width: 100%;
@@ -76,36 +77,36 @@
             }
 
             section:nth-child(1) {
-                @include md{
+                @include md {
                     grid-area: name;
                 }
             }
 
             section:nth-child(2) {
-                @include md{
+                @include md {
                     grid-area: email;
                 }
             }
 
             section:nth-child(3) {
-                @include md{
+                @include md {
                     grid-area: message;
                 }
             }
 
             section:nth-child(4) {
-                @include md{
+                @include md {
                     grid-area: send;
                 }
+
                 background-color: transparent;
                 text-align: right;
                 border: none;
 
-                button{
+                button {
                     border: none;
                 }
             }
         }
     }
 }
-

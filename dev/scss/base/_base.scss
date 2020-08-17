@@ -1,41 +1,43 @@
 /* =============
     Base
 ============= */
-figure{
+figure {
     padding: 0;
     margin: 0;
 }
 
-ul{
+ul {
     padding: 0;
     margin: 0;
-    li{
+
+    li {
         list-style: none;
     }
 }
 
-a:link, a:visited{
+a:link,
+a:visited {
     text-decoration: none;
     transition: 0.25s;
-    }
+}
 
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-columns: 20px auto 20px;
     grid-template-areas: ". container .";
 
-    @include xl{
+    @include xl {
         grid-template-columns: auto 1440px auto;
     }
 
-    >div{
+    >div {
         grid-area: container;
     }
 }
 
 
-.index-info{
-    h3{
+.index-info {
+    h3 {
         color: $white;
         font-family: 'Kanit', sans-serif;
         font-weight: 700;
@@ -45,7 +47,8 @@ a:link, a:visited{
         background-color: $black;
         padding: 10px 0 0;
     }
-    h4{
+
+    h4 {
         color: $white;
         font-family: 'Kanit', sans-serif;
         font-weight: 300;
@@ -56,4 +59,3 @@ a:link, a:visited{
         padding: 0 0 10px;
     }
 }
-

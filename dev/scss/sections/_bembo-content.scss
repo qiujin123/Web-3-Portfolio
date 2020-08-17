@@ -33,22 +33,22 @@
         display: grid;
         gap: 20px;
 
-        @include md{
+        @include md {
             grid-template-columns: repeat(2, 1fr);
             grid-template-areas:
-            "f1 f1"
-            "p1 p2"
-            
+                "f1 f1"
+                "p1 p2"
+
         }
 
         li {
-        
+
             img {
                 object-fit: cover;
                 object-position: center;
                 height: 100%;
                 width: 100%;
-                
+
             }
         }
 

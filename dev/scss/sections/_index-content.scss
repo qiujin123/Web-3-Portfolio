@@ -2,31 +2,31 @@
     Index Hero
 ============= */
 
-#index-hero{
+#index-hero {
     background-color: $black;
     margin-top: -100px;
-    
-    >div{
-        .my-slider{
-            div{
-                
 
-                img{
+    >div {
+        .my-slider {
+            div {
+
+
+                img {
                     object-fit: cover;
                     width: 100vw;
                     bottom: -150px;
                 }
             }
         }
-    
-        h1{
+
+        h1 {
             text-align: center;
             padding: 20px 0 20px;
             color: $white;
             font-family: 'Kanit', sans-serif;
             font-weight: 700;
             font-size: rem-calc(40);
-            
+
 
         }
     }
@@ -37,21 +37,23 @@
     Index Subjects
 ============= */
 
-#index-subjects{
+#index-subjects {
     background-color: $grey;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
-    #p1{
+
+    #p1 {
         margin: 20px;
-        img{
+
+        img {
             width: 100%;
         }
     }
 
-    #p2{
+    #p2 {
         margin: 20px;
-        img{
+
+        img {
             width: 100%;
         }
     }
